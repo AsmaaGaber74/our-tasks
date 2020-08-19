@@ -1,0 +1,224 @@
+.up
+    {
+        background-color:black;
+        height: 40px;
+        top: 0;
+        left: 0;
+        padding-bottom: 20px;
+        position: fixed;
+        width: 1317px;
+    }
+ .up ul li
+    {
+      width: 80px;
+      height: 20px;
+      display: inline-block;
+      text-align: center;
+      padding: 5px;
+    }
+ 
+  .up ul li a
+    {
+         text-decoration: none;
+         color: black;
+    }
+  .up ul .one
+ {
+        display:inline-block;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        padding: 5px;
+        width: 60px;
+        text-align: center;
+        color: red;
+ }
+  .up ul .tow
+ {
+     display: inline-block;
+     color: red;
+     float:right;
+     margin-right: 20px;
+     color: #FFFFFF;
+     width: 60px;
+     padding: 5px;
+     text-align: center;
+ }
+ .up ul .tow:hover
+ {
+    background-color:#FFFFFF;
+    color: black;
+ }
+ .one ul {
+    list-style-type: none;
+    float: left;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+ }
+  
+  .one  li{
+    list-style-type: none;
+    background-color: green;
+    margin-left:-130px;
+    padding: 5px 0 0px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .one  li a
+  {
+    text-decoration: none;
+    color: #fff;
+  }
+  .one .about
+  {
+    background-color: #AD62AD;
+  }
+  .one .blog
+  {
+    background-color: #965e5e;
+  }
+  .one .pro
+  {
+      background-color: black ;
+  }
+  .one .contact
+  {
+    background-color: #5FAF8B;
+  }
+  .one  li:hover
+  {
+    margin-left:-48px;
+    transition: 1s  ease-in-out  all;
+  }
+ .container
+ {
+    
+    margin: auto;
+    width: 1230px;
+    background-color: #fff;
+ }
+ 
+.container p
+{
+    background-color:black;
+    color:#fff;
+    padding:8px 10px;
+    position:sticky;
+    top: 60px;
+    z-index:1;
+    color:#fff;
+}
+.container ul
+{
+    color: black;
+    list-style-type: none;
+    text-transform:capitalize;
+}
+ .container2
+    {
+      margin:auto;
+      width: 1230px;
+      background-image:url("../img/pic37.jpg");
+      background-size: 1230px 300px;
+      background-repeat: no-repeat;
+      padding: 20px;
+      height: 300px;
+    }
+  .container2 .con1  
+ {
+   padding: 12px 5px 17px;
+   height: 10px;
+  line-height: 28px;
+   margin: 60px;
+   background-color: #D3CCBA;
+   text-transform: uppercase;
+   width: 900px;
+   overflow: hidden;
+   display: block;
+ }
+  .container2 .con1:hover
+  {
+    overflow: visible;
+    height: 35px;
+    cursor: pointer;
+  }
+ .container2:hover:after
+    {
+       content:"we must becom the change we wante to see.";
+       font-size:30px;
+       padding:10px;
+       width: 70%;
+       opacity: 0.5;
+        margin: 20px ;
+        transition: 3s ease-in-out all;
+        background-color:red;
+        position: absolute;
+    }
+    .container3
+    {
+      color: #fff;
+      margin:auto;
+      width: 1230px;
+      background-image: url("../img/pic38.jpg");
+      background-size: 1230px 500px;
+      background-repeat: no-repeat;
+      padding: 20px;
+      height: 500px;
+      display:block;
+    }
+  .container3 >div
+    {
+        background-color: #BC64B3;
+        margin: 20px auto;
+        width: 900px;
+        padding: 20px;
+        height: 400px;
+        font-size:20px;
+        opacity: 0.7;
+    }
+ .container3 .direct >div
+    {
+        background-color: #6E007F;
+        padding: 15px;
+        margin: 10px;
+    }
+ .container3 p
+    {
+       margin: 10px;
+       background-color:black;
+       padding: 15px 
+    }
+  .container3 p:hover~p
+     {
+        background-color:#6E007F;
+     }
+ .container4
+  {
+      margin:auto;
+      width: 1230px;
+      background-image: url('../img/pic39.jpg');
+      background-size: 1230px 150px;
+      background-repeat: no-repeat;
+      padding: 20px;
+      height: 150px;
+  }
+ .container4 .con3
+ {
+    margin: auto;
+    padding: 40px;
+    line-height: 25px;
+ }
+ .container4 .con3:first-letter
+ {
+    font-size: 30px;
+    background-color: red;
+    padding:5px;
+    border-radius: 5px;
+ }
+  .container4 .con3:first-line
+  {
+    background-color: #556196;
+  }
