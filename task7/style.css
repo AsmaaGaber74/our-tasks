@@ -1,0 +1,52 @@
+ .up
+    {
+        background-color:black;
+        height: 40px;
+        top: 0;
+        left: 0;
+        padding-bottom: 20px;
+        position:fixed;
+        margin: auto;
+        width: 100%;
+    }
+ .up ul li
+    {
+      width: 80px;
+      height: 20px;
+      display: inline-block;
+      text-align: center;
+      padding: 5px;
+    }
+ 
+  .up ul li a
+    {
+         text-decoration: none;
+         color: #fff;
+    }
+  .up ul .one
+ {
+  transform: skewX(20deg);
+        display:inline-block;
+        color:black;
+        font-size: 20px;
+        padding: 5px;
+        width: 60px;
+        text-align: center;
+        color: red;
+ }
+  .up ul .tow
+ {
+     display: inline-block;
+     color: red;
+     float:right;
+     margin-right: 20px;
+     color: #FFFFFF;
+     width: 60px;
+     padding: 5px;
+     text-align: center;
+ }
+ .up ul .tow:hover
+ {
+   transition: 1s ease-in-out all;
+   font-size: 25px;
+ }
