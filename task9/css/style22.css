@@ -1,0 +1,227 @@
+.media
+    {
+        background-color:black;
+        height:25px;
+        top:0;
+        left: 0;
+        padding:0 0  50px;
+        margin:auto;
+        width: 100%;
+    }
+.media ul li
+    {
+      width: 80px;
+      height:20px;
+      display: inline-block;
+      text-align: center;
+      padding: 5px;
+      padding-bottom: 50px;
+    }
+ 
+.media ul li a
+    {
+         text-decoration: none;
+         color: #fff;
+    }
+.media ul .one
+   {
+       transform: skewX(20deg);
+        display:inline-block;
+        color:black;
+        font-size: 20px;
+        padding: 5px;
+        width: 60px;
+        text-align: center;
+        background-color:#E014D2;
+        border-radius:  20px;
+        margin:20px;
+   }
+.media ul .tow
+  {
+     display: inline-block;
+     color: red;
+     float:right;
+     margin-right: 20px;
+     margin-top: 20px;
+     color: #FFFFFF;
+     width: 50px;
+     padding: 5px;
+     text-align: center;
+     border-radius:  20px;
+  }
+.media ul .tow:hover
+ {
+   background-color:#E014D2;
+   color: black;
+ }
+.info ul {
+    list-style-type: none;
+    float: left;
+    position: fixed;
+    text-align: center;
+ }
+.info  li{
+    list-style-type: none;
+    background-color: green;
+    margin-left:-120px;
+    padding: 5px 0 0px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    color: #fff;
+    
+  }
+.info  li a
+  {
+    text-decoration: none;
+    color: #fff;
+  }
+.info .about
+  {
+    background-color: #AD62AD;
+  }
+.info .blog
+  {
+    background-color: #965e5e;
+  }
+.info .pro
+  {
+        background-color: black ;
+
+  }
+.info .contact
+  {
+    background-color: #5FAF8B;
+  }
+.info li:hover
+  {
+    transition: 1s ease-in-out all;
+    margin-left: -48px;
+  }
+.info ul:hover
+  {
+    cursor: pointer;
+  }
+.continer
+       {
+         background-image:url("../image/pic1.jpg");
+         background-size: 1300px 300px;
+         margin: auto;
+         width: 1300px;
+         height: 300px;
+         top: 0;
+         background-repeat: no-repeat;
+         margin-top:10px;
+         text-align: center;
+       }
+.continer .up
+  {
+    background-color: #C6BAC5;
+    margin:  30px 90px;
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+   box-shadow: 10px 10px 10px #F21370, -10px -10px 10px #F475D7;
+  }
+.continer .up .child
+   {
+        
+    background-color: #fff;
+    margin:  20px 70px;
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    padding-top: 25px;
+    text-align: center;
+     line-height: 35px;
+    box-shadow: 10px 10px 5px #F21370, -10px -10px 5px #F475D7;
+    text-shadow: 10px 10px 5px #F21370;
+    font-family: cursive; 
+    font-size: 30px
+    }
+.continer .up input
+    {
+       background-color: #fff;
+       margin:  130px 30px;
+       position: absolute;
+       width: 100px;
+        height: 20px;
+       padding: 10px;
+        text-align: center;
+      background-image:linear-gradient(to right,#9E0699,#FF008C);
+      text-shadow: 10px 10px 5px #F21370;
+      font-family: cursive; 
+      font-size: 20px;
+      border-radius: 30px;
+      border-bottom-right-radius: 250px;
+      border-top-left-radius: 250px;
+  
+    }
+.rotate
+       {
+         background-image:url("../image/pic3.jpg");
+         background-size: 1300px 300px;
+         background-repeat: no-repeat;
+         margin: auto;
+         width: 1300px;
+         height: 300px;
+         top: 0;
+         margin-top:60px;
+         text-align: center;
+       }
+.rotate img
+       {
+        margin-top: 20px;
+         width: 300px;
+         height:200px;
+         transition:2s ;
+       }
+.rotate img:hover
+    {
+           transform:scaleX(1.5)
+                      rotate(360deg);
+        -webkit-transform:scaleX(1.5)
+                      rotate(360deg);
+         
+         cursor: pointer;
+    }
+.transolat
+       {
+          background-image:url("../image/pic2.jpg");
+          background-size: 1200px 300px;
+         background-repeat: no-repeat;
+         margin: auto;
+         width: 1200px;
+         height: 300px;
+          overflow: hidden;
+         margin-top:40px;
+         
+       }
+.transolat  img
+       {
+         overflow: hidden;
+         width: 300px;
+         height: 300px;
+        }
+.transolat:hover  img
+      {
+        transform:scale(2)
+                    translate(200px);
+        -webkit-transform:scale(2)
+                     translate(200px);
+        overflow: hidden
+      }
+.copyright
+{
+    width: 1280px;
+     height: 30px;
+     background-color: black;
+     color:#FFFFFF;
+     margin: 10px;
+     padding: 20px;
+     text-align: center;
+     font-family: serif;
+}
