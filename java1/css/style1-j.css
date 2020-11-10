@@ -1,0 +1,208 @@
+
+.info
+    {
+        background-color:black;
+        height: 40px;
+        top: 0;
+        left: 0;
+        padding-bottom: 20px;
+        position:fixed;
+        margin: auto;
+        width: 100%;
+    }
+.info ul li
+    {
+      width: 90px;
+      height: 20px;
+      display: inline-block;
+      text-align: center;
+      padding: 5px;
+    }
+ 
+.info ul li a
+    {
+         text-decoration: none;
+         color: #fff;
+    }
+.info ul .one
+   {
+       transform: skewX(20deg);
+        display:inline-block;
+        color:black;
+        font-size: 20px;
+        padding: 5px;
+        width: 60px;
+        text-align: center;
+        background-color:#A89F5A;
+        border-radius:  20px;
+   }
+.info ul .tow
+  {
+     display: inline-block;
+     color: red;
+     float:right;
+     margin-right: 20px;
+     color: #FFFFFF;
+     width: 60px;
+     padding: 5px;
+     text-align: center;
+     border-radius:  20px;
+  }
+.info ul .tow:hover
+ {
+   background-color: #A89F5A;
+   color: black;
+ }
+ .calc
+ {
+    background-image:url("../image/pic2.jpg");
+      background-size: 1200px 400px;
+      margin: 95px auto;
+      width: 1200px;
+      height: 400px;
+      background-repeat: no-repeat;
+ }
+  .calc .button
+  {
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    float:left;
+  }
+ .calc .num1
+ {
+    
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    padding:10px;
+    margin:50px 0px 30px 80px;
+    background-color: #728e8b;
+    border-color: #252020;
+     color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+ }
+ .calc .num2
+ {
+    
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    padding:10px;
+    margin:30px 0px 30px 80px;
+    background-color: #728e8b;
+    border-color: #252020;
+     color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+ }
+ .calc .calculate
+ {
+    
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    padding:10px;
+    margin:30px 0px 30px 130px;
+   background-color: #728e8b;
+    border-color: #252020;
+     color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+ }
+  .calc .result
+  {
+     width:100px;
+    height: 50px;
+    padding:10px;
+    background-color: #7b4848;
+    float: right;
+    margin: 150px 350px 150px 0px;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 50px;
+     color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+  }
+.myimage{
+    width: 1200px;
+    height: 320px;
+    
+    margin: auto;
+}
+ .myimage .name
+ {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    float:left;
+ }
+  .myimage .name input  
+     {
+    
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    padding:10px;
+    margin:30px 0px 30px 80px;
+    background-color: #ef5138;
+    border-color: #440f0f;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+ }
+.myimage .name button
+ {
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    padding:10px;
+    margin:30px 0px 30px 130px;
+   background-color: #ef5138;
+    border-color: #440f0f;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+}
+.myimage .mm{
+    width:400px;
+    height: 200px;
+    padding:10px;
+    display: inline-block;
+    float: right;
+     margin: 100px 350px 0px 0px;
+    color:black;
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    
+}
+.colum
+    {
+         width:440px;
+         height:200px;
+         padding: 20px;
+        margin: 20px 300px ;
+        -webkit-column-count:3;
+        column-count:3;
+        column-rule: 2px  solid #777;
+        background-color: #EEE;
+        border: 1px solid #777;
+        column-width: 200px;
+        overflow:hidden;
+        column-gap: 40px;
+        box-shadow: 0 0 25px 8px rgba(234, 19, 98, 0.9);
+    }
+ .colum:hover
+    {
+       resize:horizontal;
+       
+    }
