@@ -1,0 +1,75 @@
+</html>
+  <!DOCTYPE html>
+  <html lang="en">
+     <head>
+        <meta charset="utf-8">
+        <title>asmaa gaber</title>
+        <!--font awsome-->
+        <link rel="stylesheet" href="css/style2-j.css" type="text/css"/>
+        <link rel="stylesheet" href="css/brands.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/solid.min.css" type="text/css"/>
+         <link href='http://fonts.googleapis.com/css?family=deathnote_font' rel="stylesheet">
+        
+        <!--end fontawesome-->
+     </head>
+     <body>
+       <div class="info">
+            <ul>
+                 <li class="one"> <a href="hom">home</a></li>
+                 <li class="tow"> <a href="hom">about us</a></li>
+                 <li class="tow"> <a href="hom">contact</a></li>
+                 <li class="tow"> <a href="hom">project</a></li>
+            </ul>
+        </div>
+       
+       <!-- div to calculat sum of tow number-->
+        <div class="up" id="up" >
+             <p class="num" id="num1"> type the frist number</p>
+             <input type="text"  class="enter-num1" id="enter-num1" value="">
+             <p class="num" id="num2"> type the secound number</p>
+             <input type="text"  class="enter-num2" id="enter-num2" value="">
+             <p class="result" id="result"></p>
+             <button onclick="add();" class="add">add</button>
+        </div>
+        <!--end div-->
+        
+        <!--div to contain propmpit-->
+        <div class="continur-prompit">
+             <button onclick="pro();" class="prompit">prompit</button>
+             <p id="show-prompit"></p>
+        </div>
+        <!--end div-->
+        
+        <!--div contin three inner dives to show date and calculat number of letter and chang color -->
+        <div class="show-data">
+             <button onclick="data();" class="data" id="tell-me theData">tell me time on click</button><hr>
+             <!-- div to calculat letters in string-->
+             <div class="numbers-of-letters">
+                  <input type="text"  id="enter-leteers" class="enter-leteers"  onkeyup="count();">
+                  <p  class="number-equal" id="number-equal"></p><hr>
+            </div>
+            <!--end div-->
+            
+             <!--div to chang color-->
+             <div class="changcolor">
+                 <input type="color" id="choseColor">
+                 <input type="text" onmousemove="chang();"  id="showChange" value="changcolor"><br>
+             </div>
+             <!--end div-->
+             
+        </div>
+       <!--end div-->
+       
+       <!-- div to makearray-->
+       <div class="array">
+           <input type="text"  id="enter-number" class="enter-number">
+           <p>chose number of element to store (maximum  19 user)</p>
+          <button onclick="array();" > make array </button>
+          <div id="show" class="show"></div>
+         
+       </div>
+       <!--end div-->
+        <script src="tow.js"></script>
+     </body>
+  </html>
