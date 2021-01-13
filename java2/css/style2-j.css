@@ -155,8 +155,7 @@
 .continur-prompit .prompit 
     {
       margin: 20px;
-      background-image: linear-gradient(to right,#400d3e,#ff008c);
-          background-image: linear-gradient(to right,#ce23c7,#1ce0aa);
+      background-image: linear-gradient(to right,#ce23c7,#1ce0aa);
       height: 30px;
       width: 70px;
       border-radius:0px 50%

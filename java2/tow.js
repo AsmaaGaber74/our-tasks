@@ -47,7 +47,7 @@
               "use strict";
             var
                x=document.getElementById("enter-leteers").value;
-                document.getElementById("number-equal").innerHTML=x.length;
+                document.getElementById("number-equal").innerHTML=(x.length);
       }
  /* function to chang color*/
   function chang()
