@@ -1,0 +1,234 @@
+
+
+body
+ {
+   padding-top: 70px;
+  }
+   h1 , h2 ,h3
+  {
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  .navbar-dark .navbar-nav .show > .nav-link,
+  .navbar-dark .navbar-nav .nav-link.active
+  {
+    color: #C9124C;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link
+  {
+    color: #C9124C;
+  }
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled)
+  {
+    cursor: pointer;
+    color: red;
+    border-color: #841932;
+  }
+ .dropdown-item
+  {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color: #E8304C;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: black;
+    border-radius: 2%;
+    transition: padding 0.5s ease-in-out
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #1e2125;
+    background-color: #959DA5;
+    padding: 5px;
+}
+.w-100 {
+    height: 400px;
+    width: 100% !important;
+}
+.carousel-caption
+{
+    background:rgba(3,3,3,0.3);
+    margin-bottom: 40px;
+
+}
+.carousel-item h6, h5, h2, h4, h3, h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: red;
+}
+.info li
+{
+ 
+  list-style: none;
+}
+
+
+
+
+  .staplishement
+  {
+     padding: 20px;
+     font-family: 'Dosis', sans-serif;
+  }
+.staplishement .image
+{
+  border: 2px solid #b95757;
+  width: 100%;
+  height: 100%;
+}
+.staplishement .image img
+{
+  
+  background-color:#d07474;
+  padding: 5px;
+}
+ .staplishement .carousel-inner
+ {
+  width: 100%;
+  height: 100%;
+  background-color:  #DDD7D7;
+ }
+ .staplishement .lead
+ {
+      padding-bottom: 25px;
+      line-height: 2em;
+      color: #050404;
+      padding-top: 10px;
+     
+ }
+ 
+.champions 
+{
+  background-color: #DDD7D7;
+  padding: 20px;
+}
+.champions h1
+{
+  color:black;
+  
+}
+ .champions .caf, .Egyptian ,.UAFA 
+ {
+   background-color: #FCFFFE;
+   padding: 10px;
+   border-radius:  2px;
+   border-color: red;
+   margin: 15px;
+ }
+.president
+{
+  
+      background-image:url("../image/pic5.jpg");
+      background-size: 100% 700px;
+      margin:10px auto;
+      width: 100%;
+      min-height: 700px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+.president .elahly-president
+{
+  min-height: 700px;
+  background: rgba(2,2,2,0.7);
+  color:#fff;
+}
+.president h1
+{
+  padding: 20px;
+  color :#fff;
+  
+}
+.president h3
+{
+  
+  color :red;
+  
+}
+.president .elahly-president img
+{
+   height: 80%;
+   width: 100%;
+   border-radius: 50%;
+   margin: 20px;
+   padding-top: 50px;
+}
+.ranking h2
+{
+  color: black;
+}
+.up
+{
+  margin: 15px;
+}
+.Top-Goalscorers h1 , h2 ,h3 ,h4 ,h5
+{
+   margin-bottom:15px;
+   color: black;
+   font-family: sans-serif
+   
+}
+.Top-Goalscorers .card img
+{
+  height: 200px;
+}
+.bg-secondary {
+    background-color: #c75050 !important;
+    color: black;
+}
+.Top-Goalscorers .top
+{
+   font-size: 30px;
+   color: #c75050;
+  margin-bottom: 25px;
+}
+.Top-Goalscorers .managers
+{
+   font-size: 30px;
+   color: #c75050;
+  
+}
+.contact
+{
+  
+      background-image:url("../image/pic5.jpg");
+      background-size: 100% 300px;
+      width: 100%;
+      min-height: 300px;
+      background-repeat: no-repeat;
+      color: white;
+      padding: 5px;
+      
+}
+.contact-us
+{
+  min-height: 296px;
+  padding: 8px;
+  background: rgba(2,2,2,0.7);
+  color:#fff;
+}
+.contact button
+{
+  width: 300px;
+  margin:10px 0 0px 80px;
+  color: black;
+}
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+    cursor: pointer;
+    color: black;
+    border-color: #841932;
+}
+.contact .icons a
+{
+   margin: 5px;
+}
+.contact  p
+{
+  color:white;
+   
+}
