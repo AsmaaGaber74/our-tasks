@@ -1,0 +1,134 @@
+* {
+ box-sizing: border-box;
+ 
+}
+.body
+
+{
+    font-family:Arial, sans-serif;
+}
+.to-do-continer
+{
+    width: 600px;
+    margin: 30px auto 0px;
+    background-color: currentColor;
+}
+.to-do-continer .add-task
+{
+    padding: 15px;
+    background-color:darkcyan;
+    position: relative;
+}
+.to-do-continer .add-task input
+{
+    display: inline-block;
+    padding: 10px  15px;
+    border: none;
+    background-color: rgba(255,255,255,0.3);
+    width: calc(100% - 15px);
+    color: white;
+    font-size: 20px;
+}
+.to-do-continer .add-task input:focus
+{
+    outline: none;
+}
+.to-do-continer .add-task .plus
+{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border-radius: 50%;
+    color: cadetblue;
+    background-color: white;
+    font-size: 45px;
+    text-align: center;
+    line-height: 45px;
+    right: 12px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.to-do-continer .add-task .plus:hover
+{
+    transform: rotate(90deg);
+}
+
+
+
+.to-do-continer .task-content
+{
+    padding:10px;
+    background-color: gainsboro;
+}
+.to-do-continer .task-content .no-taske
+{
+    color: gainsboro;
+    font-size: 15px;
+}
+.to-do-continer .task-content >span
+{
+    display: block;
+    background-color: white;
+    padding: 10px;
+}
+.to-do-continer .task-content >span:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+
+.to-do-continer .task-content .task-box .delettask
+{
+    float: right;
+    color: white;
+    background-color:crimson;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+.to-do-continer .task-content .task-box.finished
+{
+    text-decoration: line-through;
+    color: red;
+}
+.taske-statue
+{
+    overflow: hidden; 
+    margin: 10px auto;
+    width: 600px;
+    font-size: 17px;
+}
+.taske-statue .task-count
+{
+    width: 50%;
+    float: left;
+    padding: 10px;;
+}
+
+.taske-statue .task-completed
+{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    text-align: right;
+}
+
+.taske-statue .task-count span,
+.taske-statue .task-completed  span
+{
+    color: white;
+    padding: 1px 5px;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.taske-statue .task-count span
+{
+    background-color: deeppink;
+}
+.taske-statue .task-completed span
+{
+    background-color: darkturquoise;
+}
